@@ -11,6 +11,7 @@ public class Ball : MonoBehaviour {
 	void Start () {
 		paddleToBallVector = this.transform.position - paddle.transform.position;
 		// print (paddleToBallVector);
+		// print (paddleToBallVector);
 	}
 	
 	// Update is called once per frame
